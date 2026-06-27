@@ -2,16 +2,28 @@
 
 Local YouTube downloader using yt-dlp + FFmpeg.
 
-# Requirements
+## Requirements
 - Python 3.10+
-- FFmpeg installed and added to PATH
-- Node.js installed and added to PATH
+- FFmpeg (added to PATH)
+- Node.js (added to PATH)
 
-# Install yt-dlp
+## Windows
+Install dependencies, then run:
+py YTDlocal.py
+
+## Linux
+sudo apt install ffmpeg nodejs python3
+python3 YTDlocal.py
+
+## macOS
+brew install ffmpeg node
+python3 YTDlocal.py
+
+## Install Python dependency
 pip install -r requirements.txt
 
-# Run
+## Run
 python YTDlocal.py
 
-# Important
-Beware, this tool is intended for downloading content you own or have permission to use.
+## Important
+This tool is intended for downloading content you own or have permission to use.
